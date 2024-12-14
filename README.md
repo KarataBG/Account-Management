@@ -19,6 +19,10 @@ The Account Management Application is a web application built using ASP.NET Core
 - Google Authentication
 - Microsoft.AspNetCore.Authorization
 
+- ## Note
+
+- Requires your own google OAuth codes in ~\appsettings.json
+
 - ## Future updates
 
 - Add accounts database
