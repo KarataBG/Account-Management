@@ -21,7 +21,7 @@ namespace account_management.Pages
         [BindProperty]
         public Account account{  get; set; }
 
-        public string text = "NOT LOGGED IN \t(Use Email - user1@example.com and Password - 1)";
+        public string text = "NOT LOGGED IN";
 
         public bool loggedin = false;
         public IActionResult OnGet()

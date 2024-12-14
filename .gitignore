@@ -399,3 +399,4 @@ FodyWeavers.xsd
 
 # Ignore sensitive configuration files
 account management/appsettings
+account management/appsettings.json
