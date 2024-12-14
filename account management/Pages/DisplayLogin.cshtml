@@ -1,0 +1,20 @@
+﻿@page
+@model account_management.Pages.DisplayLoginModel
+@{
+    ViewData["Title"] = "Successfull login";
+
+    if (!string.IsNullOrEmpty(Model.UserEmail))
+    {
+        <p>Your email: @Model.UserEmail</p>
+        <p>Your name: @Model.UserName</p>
+    }
+    else
+    {
+        <p>You are not logged in.</p>
+    }
+}
+
+<form method="post" asp-page-handler="Logout">
+    <input type="hidden" asp-antiforgery="true" />
+    <button type="submit">Logout</button>
+</form>
