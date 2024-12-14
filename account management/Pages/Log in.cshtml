@@ -5,7 +5,6 @@
 
 }
 
-<title>Login Form</title>
 <link rel="stylesheet" type="text/css" href="~/css/register.css">
 
 <div class="container">
@@ -21,6 +20,10 @@
             <input type="password" id="password" name="Pass" required>
         </div>
         <input type="submit" value="Log in">
+
+        <h3>Or login with Google</h3>
+
+        <a class="btn btn-google" asp-page-handler="SignInGoogle">Sign in with Google</a>
     </form>
 </div>
 

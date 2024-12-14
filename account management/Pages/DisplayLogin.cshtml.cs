@@ -27,7 +27,7 @@ namespace account_management.Pages
         {
 
             await HttpContext.SignOutAsync("CookieLoginScheme");
-            return RedirectToPage("/Register");
+            return RedirectToPage("/Log in");
 
         }
     }
